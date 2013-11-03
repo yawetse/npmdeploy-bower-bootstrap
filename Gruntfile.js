@@ -56,7 +56,7 @@ module.exports = function(grunt) {
     copy: {
       main: {
         files: [
-          {expand: true,cwd: 'bower_components/bootstrap/dist', src: ['**'], dest: '../../node_assets/lib/bootstrap/'},
+          {expand: true,cwd: 'bower_components/bootstrap/dist', src: ['**'], dest: '../../node_assets/bootstrap/'},
         ]
       }
     },
