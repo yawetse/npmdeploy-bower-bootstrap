@@ -1,0 +1,40 @@
+{
+  "name": "bower_bootstrap",
+  "description": "Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.amexpub.com:modules/bower_bootstrap.git"
+  },
+  "scripts": {
+    "install": "grunt copy",
+    "uninstall": "grunt clean",
+    "test": "mocha -R spec --recursive"
+  },
+  "dependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-copy": "0.4.1",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "devDependencies": {
+    "chai": "1.5.0",
+    "grunt": "0.4.1",
+    "grunt-contrib-jshint": "0.4.3",
+    "grunt-contrib-copy": "0.4.1",
+    "grunt-simple-mocha": "0.4.0",
+    "grunt-jsbeautifier": "0.1.7",
+    "mocha": "1.9.0",
+    "errno": "~0.1.0",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "keywords": [
+    "Amex Pub",
+    "amexpub",
+    "package",
+    "library"
+  ]
+}
