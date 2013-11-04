@@ -56,11 +56,11 @@ module.exports = function(grunt) {
     copy: {
       main: {
         files: [
-          {expand: true,cwd: 'bower_components/bootstrap/dist', src: ['**'], dest: '../../node_assets/bootstrap/'},
+          {expand: true,cwd: 'bower_components/bootstrap/dist', src: ['**'], dest: '../../public/node_assets/bootstrap/'},
         ]
       }
     },
-    clean: ['../../assets/lib/bootstrap/']
+    clean: ['../../public/node_assets/bootstrap/']
   });
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-simple-mocha');
